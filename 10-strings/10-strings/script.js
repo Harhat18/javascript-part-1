@@ -1,14 +1,26 @@
-let ad = "Sadık";
-let soyad = "Turan";
-let yas = 45;
-let sehir = "Kocaeli";
+let ad = "Harun";
+let soyad = "Hatib";
+let yas = 30;
+let sehir = "Aydın";
+// let mesaj =
+//   "Benim adım " +
+//   ad +
+//   " ve soyadım " +
+//   soyad +
+//   ". " +
+//   sehir +
+//   "'de yaşıyorum." +
+//   "Emekliliğe " +
+//   (65 - yas) +
+//   " yılım kaldı.";
+// console.log(mesaj);
 
-let mesaj = "Benim adım " + ad + ' ve soyadım ' + soyad + '. ' + sehir + '\'de yaşıyorum.' + 'Emekliliğe ' + (65 - yas) + ' yılım kaldı.';
+// // backtick ` (altgr + ,)
+// mesaj = `Benim adım ${ad} ve soyadım ${soyad}. ${sehir}'de yaşıyorum.Emekliliğe ${
+//   65 - yas
+// } yılım kaldı.`;
 
-// backtick
-mesaj = `Benim adım ${ad} ve soyadım ${soyad}. ${sehir}'de yaşıyorum.Emekliliğe ${65 - yas} yılım kaldı.`;
-
-// ternary operators
+// // ternary operators
 let emeklilik = (65 - yas > 0) ? "Emekliliğe " + (65-yas) + " yıl kaldı." : "Zaten emekli oldunuz.";
 mesaj = `Benim adım ${ad} ve soyadım ${soyad}. ${sehir}'de yaşıyorum.${emeklilik}`;
 
