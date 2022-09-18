@@ -54,14 +54,14 @@ let ogr3 = [
     [60,60,70]
 ];
 
-// let ogrenciler = [ogr1, ogr2, ogr3];
+let ogrenciler = [ogr1, ogr2, ogr3];
 
 // let yigit_yas =  new Date().getFullYear() - ogrenciler[0][2];
 // let ada_yas =  new Date().getFullYear() - ogrenciler[1][2];
 // let ahmet_yas =  new Date().getFullYear() - ogrenciler[2][2];
 
-// let yigit_not = (ogrenciler[0][3][0] + ogrenciler[0][3][1] + ogrenciler[0][3][2]) / 3;
-// let ada_not = (ogrenciler[1][3][0] + ogrenciler[1][3][1] + ogrenciler[1][3][2]) / 3;
-// let ahmet_not = (ogrenciler[2][3][0] + ogrenciler[2][3][1] + ogrenciler[2][3][2]) / 3;
+let yigit_not = (ogrenciler[0][3][0] + ogrenciler[0][3][1] + ogrenciler[0][3][2]) / 3;
+let ada_not = (ogrenciler[1][3][0] + ogrenciler[1][3][1] + ogrenciler[1][3][2]) / 3;
+let ahmet_not = (ogrenciler[2][3][0] + ogrenciler[2][3][1] + ogrenciler[2][3][2]) / 3;
 
-// console.log(yigit_not.toFixed(1), ada_not.toFixed(1), ahmet_not.toFixed(1));
+console.log(yigit_not.toFixed(1), ada_not.toFixed(1), ahmet_not.toFixed(1));

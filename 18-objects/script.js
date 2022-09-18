@@ -1,22 +1,20 @@
 // dict, json
 let kullaniciA = {
-    "ad": "Sadık",
-    "soyad": "Turan",
-    "yas": 38,
+    "ad": "Harun",
+    "soyad": "Hatib",
+    "yas": 30,
     "adres": {
-        "sehir": "kocaeli",
-        "ilce": "izmit"
-    },
+    "sehir": "Aydın",
+    "ilce": "Buharkent" },
     "hobiler": ["sinema","spor"]
 }
 let kullaniciB = {
-    "ad": "Çınar",
-    "soyad": "Turan",
-    "yas": 3855,
+    "ad": "Miray",
+    "soyad": "Hatib",
+    "yas": 2,
     "adres": {
-        "sehir": "kocaeli",
-        "ilce": "izmit"
-    },
+    "sehir": "Aydın",
+    "ilce": "Buharkent" },
     "hobiler": ["sinema","spor"]
 }
 
@@ -47,6 +45,6 @@ let urunler = [
     }
 ]
 
-sonuc = urunler[0].urun_adi;
+sonuc = urunler[1].urun_fiyat;
 
 console.log(sonuc);
