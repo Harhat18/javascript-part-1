@@ -51,22 +51,22 @@ function tamBolenler(sayi) {
 }
 
 
-console.log(tamBolenler(10));    // 2, 5
-console.log(tamBolenler(15));    // 3, 5
-console.log(tamBolenler(150));    // 5, 7
+// console.log(tamBolenler(10));    // 2, 5
+// console.log(tamBolenler(15));    // 3, 5
+// console.log(tamBolenler(150));    // 5, 7
 
 // // 5- Değişken sayıda parametre alan toplam isminde bir fonksiyon tanımlayınız.
 
-// function toplam() {
-//     let sonuc = 0;
+function toplam() {
+    let sonuc = 0;
 
-//     for(let i = 0; i < arguments.length; i++) {
-//         sonuc += arguments[i];
-//     }
+    for(let i = 0; i < arguments.length; i++) {
+        sonuc += arguments[i];
+    }
 
-//     return sonuc;
-// }
+    return sonuc;
+}
 
-// console.log(toplam(2, 5));
-// console.log(toplam(2, 5, 7));   
-// console.log(toplam(2, 5, 7, 10));   
+console.log(toplam(2, 5));
+console.log(toplam(2, 5, 7));   
+console.log(toplam(2, 5, 7, 10));   
