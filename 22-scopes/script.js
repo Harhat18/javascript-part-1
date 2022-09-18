@@ -1,5 +1,5 @@
-var isim = "Ahmet"; // global scope
-const adres = "İstanbul";
+var isim = "Harun"; // global scope
+const adres = "Aydın";
 
 function yazdir() {
     var isim = "Ayşe";
