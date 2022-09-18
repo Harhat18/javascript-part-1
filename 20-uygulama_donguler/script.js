@@ -1,6 +1,6 @@
 let sayilar = [1,5,7,15,3,25,12,24];
 
-// 1- sayilar listesindeki her bir elemanın karesini yazdırınız.
+// // 1- sayilar listesindeki her bir elemanın karesini yazdırınız.
 
 // for (let sayi of sayilar) {
 //     console.log(sayi * sayi);
@@ -13,7 +13,7 @@ let sayilar = [1,5,7,15,3,25,12,24];
 //     }
 // }
 
-// 3- sayilar listesindeki çift sayıların toplamını bulunuz.
+// // 3- sayilar listesindeki çift sayıların toplamını bulunuz.
 
 // let toplam = 0;
 // for(let i in sayilar) {
@@ -25,13 +25,13 @@ let sayilar = [1,5,7,15,3,25,12,24];
 
 let urunler = ["iphone 12","samsung s22","iphone 13","samsung s23","samsung s20"];
 
-// 4- urunler listesindeki tüm ürünleri büyük harf ile yazdırınız.
+// // 4- urunler listesindeki tüm ürünleri büyük harf ile yazdırınız.
 
 // for(let urun of urunler) {
 //     console.log(urun.toUpperCase());
 // }
 
-// 5- urunler listesinde samsung geçen kaç ürün vardır?
+// // 5- urunler listesinde samsung geçen kaç ürün vardır?
 
 // let adet = 0;
 
@@ -49,7 +49,7 @@ let ogrenciler = [
     {"ad":"çınar", "soyad": "turan", "notlar": [10,20,60]}
 ];
 
-// ogrenciler listesindeki her öğrencinin not ortalaması ve başarı durumlarını yazdırınız.
+// // ogrenciler listesindeki her öğrencinin not ortalaması ve başarı durumlarını yazdırınız.
 
 for(let ogrenci of ogrenciler) {
     let not_toplam = 0;
@@ -70,25 +70,25 @@ for(let ogrenci of ogrenciler) {
     }    
 }
 
-// tüm öğrencilerin not ortalaması kaçtır?
-let ogrenci_ortalamalar = [];
-for(let ogrenci of ogrenciler) {
+// // tüm öğrencilerin not ortalaması kaçtır?
+// let ogrenci_ortalamalar = [];
+// for(let ogrenci of ogrenciler) {
 
-    let not_toplam = 0;
-    let ortalama = 0;
-    let adet = 0;
-    for(let not of ogrenci.notlar) {
-        not_toplam += not;
-        adet++;
-    }
-    ortalama = not_toplam / adet;
-    ogrenci_ortalamalar.push(ortalama);
-}
+//     let not_toplam = 0;
+//     let ortalama = 0;
+//     let adet = 0;
+//     for(let not of ogrenci.notlar) {
+//         not_toplam += not;
+//         adet++;
+//     }
+//     ortalama = not_toplam / adet;
+//     ogrenci_ortalamalar.push(ortalama);
+// }
 
-let not_toplam = 0;
-for(ogr_ortalama of ogrenci_ortalamalar) {
-    not_toplam += ogr_ortalama;
-}
+// let not_toplam = 0;
+// for(ogr_ortalama of ogrenci_ortalamalar) {
+//     not_toplam += ogr_ortalama;
+// }
 
-console.log("sınıf ortalaması: ", not_toplam / ogrenci_ortalamalar.length);
+// console.log("sınıf ortalaması: ", not_toplam / ogrenci_ortalamalar.length);
 
