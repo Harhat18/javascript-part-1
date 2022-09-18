@@ -5,10 +5,10 @@ function kelimeYazdir(kelime, adet) {
         console.log(kelime);
     }
 }
+//  kelimeYazdir("harun", 5)
 
-// kelimeYazdir("merhaba", 2);
 
-// 2- Dikdörtgenin alan ve çevresini hesaplayan fonksiyonu yazınız.
+// // 2- Dikdörtgenin alan ve çevresini hesaplayan fonksiyonu yazınız.
 
 function alanCevreHesapla(kisa, uzun) {
     let alan = kisa * uzun;
@@ -21,7 +21,7 @@ let sonuc = alanCevreHesapla(7, 10);
 sonuc = alanCevreHesapla(7, 12);
 // console.log(sonuc);
 
-// 3- Yazı tura uygulamasını fonksiyon kullanarak yapınız.
+// // 3- Yazı tura uygulamasını fonksiyon kullanarak yapınız.
 
 function yaziTuraAt() {
     let random = Math.random(); // 0-1
@@ -36,7 +36,7 @@ function yaziTuraAt() {
 
 // yaziTuraAt();
 
-// 4- Kendisine gönderilen bir sayının tam bölenlerini dizi şeklinde döndüren fonksiyonu yazınız.
+// // 4- Kendisine gönderilen bir sayının tam bölenlerini dizi şeklinde döndüren fonksiyonu yazınız.
 
 function tamBolenler(sayi) {
     let sayilar = [];
@@ -51,22 +51,22 @@ function tamBolenler(sayi) {
 }
 
 
-// console.log(tamBolenler(10));    // 2, 5
-// console.log(tamBolenler(15));    // 3, 5
-// console.log(tamBolenler(35));    // 3, 5
+console.log(tamBolenler(10));    // 2, 5
+console.log(tamBolenler(15));    // 3, 5
+console.log(tamBolenler(150));    // 5, 7
 
-// 5- Değişken sayıda parametre alan toplam isminde bir fonksiyon tanımlayınız.
+// // 5- Değişken sayıda parametre alan toplam isminde bir fonksiyon tanımlayınız.
 
-function toplam() {
-    let sonuc = 0;
+// function toplam() {
+//     let sonuc = 0;
 
-    for(let i = 0; i < arguments.length; i++) {
-        sonuc += arguments[i];
-    }
+//     for(let i = 0; i < arguments.length; i++) {
+//         sonuc += arguments[i];
+//     }
 
-    return sonuc;
-}
+//     return sonuc;
+// }
 
-console.log(toplam(2, 5));
-console.log(toplam(2, 5, 7));   
-console.log(toplam(2, 5, 7, 10));   
+// console.log(toplam(2, 5));
+// console.log(toplam(2, 5, 7));   
+// console.log(toplam(2, 5, 7, 10));   
