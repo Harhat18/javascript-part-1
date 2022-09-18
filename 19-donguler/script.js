@@ -12,10 +12,13 @@ let toplam = 0;
 // for(let i=0; i < sayilar.length; i++) {
 //     toplam += sayilar[i];    
 // }
+// 
+
 
 // for(let i in sayilar) {
 //     toplam += sayilar[i];
 // }
+// console.log(toplam);
 
 for(let sayi of sayilar) {
     toplam += sayi;
@@ -24,10 +27,10 @@ for(let sayi of sayilar) {
 console.log(toplam);
 
 let user = {
-    "name": "Sadık Turan",
-    "username": "sadikturan",
-    "password": "12345",
-    "email": "info@sadikturan.com"
+    "name": "harun hatib",
+    "username": "harunhatib",
+    "password": "1111",
+    "email": "harunhatib@gmail.com"
 };
 
 for (let key in user) {
