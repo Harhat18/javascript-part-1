@@ -27,4 +27,4 @@ function emekliligeKacYilKaldi(dogumYili, isim) {
 }
 
 emekliligeKacYilKaldi(1992, "Harun");
-emekliligeKacYilKaldi(1980, "Fatma");
+emekliligeKacYilKaldi(1950, "Fatma");
