@@ -10,8 +10,8 @@ function yasHesapla(dogumYili) {
     return new Date().getFullYear() - dogumYili;
 }
 
-let yasAhmet = yasHesapla(1985);
-let yasAyse = yasHesapla(1987);
+let yasAhmet = yasHesapla(1992);
+let yasAyse = yasHesapla(1993);
 
 console.log(yasAhmet, yasAyse);
 
@@ -26,5 +26,5 @@ function emekliligeKacYilKaldi(dogumYili, isim) {
     }
 }
 
-emekliligeKacYilKaldi(1980, "Ali");
-emekliligeKacYilKaldi(1950, "Ayşe");
+emekliligeKacYilKaldi(1992, "Harun");
+emekliligeKacYilKaldi(1993, "Ayşe");
