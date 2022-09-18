@@ -100,4 +100,4 @@ console.log("sipariş 2: " + siparis2_toplam);
 console.log("toplam ödenen miktar: " , toplam_siparis);
 
 let siparisler = [siparis_1, siparis_2];
-.
+
